@@ -3,14 +3,14 @@ import { fetch } from 'react-fetch'
 import Tag from "./Tag";
 import ClientPage from "./Page.client";
 import ClientPost from "./Post.client";
+import SearchField from "./SearchField.client";
 
 export default function TemplateRouter({ searchText, location }) {
 
     console.log( `http://wpgraphql.local/graphql?query=query SearchPosts($search:String){posts(where:{search:$search}){nodes{id,title}}}&variables={"search":"${searchText}"}` );
 
     const response = fetch(`http://wpgraphql.local/graphql?query=query SearchPosts($search:String){posts(where:{search:$search}){nodes{id,title}}}&variables={"search":"${searchText}"}`).json()
-
-
+    
     switch (searchText) {
         case 'Page':
             return <ClientPage />
@@ -19,7 +19,15 @@ export default function TemplateRouter({ searchText, location }) {
             return <ClientPost />
             break;
         default:
-            return <Tag />
+            return (
+                <div>
+                    <h3>Gaa!!!</h3>
+                    <SearchField />
+                    <pre>{JSON.stringify(searchText, null, 2 ) }</pre>
+                    <h3>Response</h3>
+                   <pre>{ JSON.stringify(response, null, 2 ) }</pre>
+                </div>
+            )
     }
 
     // console.log( response )

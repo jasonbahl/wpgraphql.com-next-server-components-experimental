@@ -10,7 +10,7 @@ export default function TemplateRouter({ searchText, location }) {
     console.log( `http://wpgraphql.local/graphql?query=query SearchPosts($search:String){posts(where:{search:$search}){nodes{id,title}}}&variables={"search":"${searchText}"}` );
 
     const response = fetch(`http://wpgraphql.local/graphql?query=query SearchPosts($search:String){posts(where:{search:$search}){nodes{id,title}}}&variables={"search":"${searchText}"}`).json()
-    
+
     switch (searchText) {
         case 'Page':
             return <ClientPage />

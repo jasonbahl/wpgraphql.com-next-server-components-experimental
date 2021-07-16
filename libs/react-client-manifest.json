@@ -1,232 +1,272 @@
 {
-  "file:///Users/jason.bahl/Sites/wpgraphql.com-next/components/Cache.client.js": {
+  "file:///Users/jason.bahl/Sites/wpgraphql.com-next/components/SearchField.client.js": {
     "": {
-      "id": "./components/Cache.client.js",
+      "id": "dBD0",
       "chunks": [
-        "webpack",
-        "pages/index"
+        0,
+        8
       ],
       "name": ""
     },
     "*": {
-      "id": "./components/Cache.client.js",
+      "id": "dBD0",
       "chunks": [
-        "webpack",
-        "pages/index"
-      ],
-      "name": "*"
-    },
-    "useRefresh": {
-      "id": "./components/Cache.client.js",
-      "chunks": [
-        "webpack",
-        "pages/index"
-      ],
-      "name": "useRefresh"
-    },
-    "useServerResponse": {
-      "id": "./components/Cache.client.js",
-      "chunks": [
-        "webpack",
-        "pages/index"
-      ],
-      "name": "useServerResponse"
-    }
-  },
-  "file:///Users/jason.bahl/Sites/wpgraphql.com-next/components/LocationContext.client.js": {
-    "": {
-      "id": "./components/LocationContext.client.js",
-      "chunks": [
-        "webpack",
-        "pages/index"
-      ],
-      "name": ""
-    },
-    "*": {
-      "id": "./components/LocationContext.client.js",
-      "chunks": [
-        "webpack",
-        "pages/index"
-      ],
-      "name": "*"
-    },
-    "LocationContext": {
-      "id": "./components/LocationContext.client.js",
-      "chunks": [
-        "webpack",
-        "pages/index"
-      ],
-      "name": "LocationContext"
-    },
-    "useLocation": {
-      "id": "./components/LocationContext.client.js",
-      "chunks": [
-        "webpack",
-        "pages/index"
-      ],
-      "name": "useLocation"
-    }
-  },
-  "file:///Users/jason.bahl/Sites/wpgraphql.com-next/components/Root.client.js": {
-    "": {
-      "id": "./components/Root.client.js",
-      "chunks": [
-        "webpack",
-        "pages/index"
-      ],
-      "name": ""
-    },
-    "*": {
-      "id": "./components/Root.client.js",
-      "chunks": [
-        "webpack",
-        "pages/index"
+        0,
+        8
       ],
       "name": "*"
     },
     "default": {
-      "id": "./components/Root.client.js",
+      "id": "dBD0",
       "chunks": [
-        "webpack",
-        "pages/index"
+        0,
+        8
+      ],
+      "name": "default"
+    }
+  },
+  "file:///Users/jason.bahl/Sites/wpgraphql.com-next/components/LocationContext.client.js": {
+    "": {
+      "id": "9bxH",
+      "chunks": [
+        1,
+        2,
+        0,
+        12
+      ],
+      "name": ""
+    },
+    "*": {
+      "id": "9bxH",
+      "chunks": [
+        1,
+        2,
+        0,
+        12
+      ],
+      "name": "*"
+    },
+    "LocationContext": {
+      "id": "9bxH",
+      "chunks": [
+        1,
+        2,
+        0,
+        12
+      ],
+      "name": "LocationContext"
+    },
+    "useLocation": {
+      "id": "9bxH",
+      "chunks": [
+        1,
+        2,
+        0,
+        12
+      ],
+      "name": "useLocation"
+    }
+  },
+  "file:///Users/jason.bahl/Sites/wpgraphql.com-next/components/Cache.client.js": {
+    "": {
+      "id": "BAEx",
+      "chunks": [
+        1,
+        2,
+        0,
+        12
+      ],
+      "name": ""
+    },
+    "*": {
+      "id": "BAEx",
+      "chunks": [
+        1,
+        2,
+        0,
+        12
+      ],
+      "name": "*"
+    },
+    "useRefresh": {
+      "id": "BAEx",
+      "chunks": [
+        1,
+        2,
+        0,
+        12
+      ],
+      "name": "useRefresh"
+    },
+    "useServerResponse": {
+      "id": "BAEx",
+      "chunks": [
+        1,
+        2,
+        0,
+        12
+      ],
+      "name": "useServerResponse"
+    }
+  },
+  "file:///Users/jason.bahl/Sites/wpgraphql.com-next/components/Root.client.js": {
+    "": {
+      "id": "QmlG",
+      "chunks": [
+        1,
+        2,
+        0,
+        12
+      ],
+      "name": ""
+    },
+    "*": {
+      "id": "QmlG",
+      "chunks": [
+        1,
+        2,
+        0,
+        12
+      ],
+      "name": "*"
+    },
+    "default": {
+      "id": "QmlG",
+      "chunks": [
+        1,
+        2,
+        0,
+        12
       ],
       "name": "default"
     }
   },
   "file:///Users/jason.bahl/Sites/wpgraphql.com-next/components/EditButton.client.js": {
     "": {
-      "id": "./components/EditButton.client.js",
+      "id": "iQ/d",
       "chunks": [
-        "client1"
+        0,
+        4
       ],
       "name": ""
     },
     "*": {
-      "id": "./components/EditButton.client.js",
+      "id": "iQ/d",
       "chunks": [
-        "client1"
+        0,
+        4
       ],
       "name": "*"
     },
     "default": {
-      "id": "./components/EditButton.client.js",
+      "id": "iQ/d",
       "chunks": [
-        "client1"
+        0,
+        4
       ],
       "name": "default"
     }
   },
   "file:///Users/jason.bahl/Sites/wpgraphql.com-next/components/NoteEditor.client.js": {
     "": {
-      "id": "./components/NoteEditor.client.js",
+      "id": "GjRg",
       "chunks": [
-        "client3"
+        0,
+        5
       ],
       "name": ""
     },
     "*": {
-      "id": "./components/NoteEditor.client.js",
+      "id": "GjRg",
       "chunks": [
-        "client3"
+        0,
+        5
       ],
       "name": "*"
     },
     "default": {
-      "id": "./components/NoteEditor.client.js",
+      "id": "GjRg",
       "chunks": [
-        "client3"
+        0,
+        5
       ],
       "name": "default"
     }
   },
   "file:///Users/jason.bahl/Sites/wpgraphql.com-next/components/Page.client.js": {
     "": {
-      "id": "./components/Page.client.js",
+      "id": "QN8I",
       "chunks": [
-        "client4"
+        0,
+        6
       ],
       "name": ""
     },
     "*": {
-      "id": "./components/Page.client.js",
+      "id": "QN8I",
       "chunks": [
-        "client4"
+        0,
+        6
       ],
       "name": "*"
     },
     "default": {
-      "id": "./components/Page.client.js",
+      "id": "QN8I",
       "chunks": [
-        "client4"
-      ],
-      "name": "default"
-    }
-  },
-  "file:///Users/jason.bahl/Sites/wpgraphql.com-next/components/SearchField.client.js": {
-    "": {
-      "id": "./components/SearchField.client.js",
-      "chunks": [
-        "client7"
-      ],
-      "name": ""
-    },
-    "*": {
-      "id": "./components/SearchField.client.js",
-      "chunks": [
-        "client7"
-      ],
-      "name": "*"
-    },
-    "default": {
-      "id": "./components/SearchField.client.js",
-      "chunks": [
-        "client7"
+        0,
+        6
       ],
       "name": "default"
     }
   },
   "file:///Users/jason.bahl/Sites/wpgraphql.com-next/components/Post.client.js": {
     "": {
-      "id": "./components/Post.client.js",
+      "id": "kF4z",
       "chunks": [
-        "client5"
+        0,
+        7
       ],
       "name": ""
     },
     "*": {
-      "id": "./components/Post.client.js",
+      "id": "kF4z",
       "chunks": [
-        "client5"
+        0,
+        7
       ],
       "name": "*"
     },
     "default": {
-      "id": "./components/Post.client.js",
+      "id": "kF4z",
       "chunks": [
-        "client5"
+        0,
+        7
       ],
       "name": "default"
     }
   },
   "file:///Users/jason.bahl/Sites/wpgraphql.com-next/components/SidebarNote.client.js": {
     "": {
-      "id": "./components/SidebarNote.client.js",
+      "id": "+JD+",
       "chunks": [
-        "client8"
+        0,
+        8
       ],
       "name": ""
     },
     "*": {
-      "id": "./components/SidebarNote.client.js",
+      "id": "+JD+",
       "chunks": [
-        "client8"
+        0,
+        8
       ],
       "name": "*"
     },
     "default": {
-      "id": "./components/SidebarNote.client.js",
+      "id": "+JD+",
       "chunks": [
-        "client8"
+        0,
+        8
       ],
       "name": "default"
     }

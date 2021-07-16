@@ -5,9 +5,9 @@ import ClientPost from "./Post.client";
 import SearchField from "./SearchField.client";
 const wpEndpoint = process.env.NEXT_PUBLIC_WORDPRESS_GRAPHQL_API;
 
-export default function TemplateRouter({ searchText, location }) {
+export default async function TemplateRouter({ searchText, location }) {
 
-    const response = fetch(`${wpEndpoint}?query=query SearchPosts($search:String){posts(where:{search:$search}){nodes{id,title}}}&variables={"search":"${searchText}"}`).json()
+    const response = await fetch(`${wpEndpoint}?query=query SearchPosts($search:String){posts(where:{search:$search}){nodes{id,title}}}&variables={"search":"${searchText}"}`).json()
 
     switch (searchText) {
         case 'Page':

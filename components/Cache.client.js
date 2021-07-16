@@ -2,6 +2,8 @@ import { createFromFetch } from 'react-server-dom-webpack'
 
 const endpoint = process.env.NEXT_PUBLIC_ENDPOINT
 
+console.log( endpoint )
+
 const cache = new Map()
 
 export function useRefresh() {

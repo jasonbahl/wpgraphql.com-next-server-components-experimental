@@ -3,6 +3,7 @@ import { fetch } from 'react-fetch'
 import ClientPage from "./Page.client";
 import ClientPost from "./Post.client";
 import SearchField from "./SearchField.client";
+
 const wpEndpoint = process.env.NEXT_PUBLIC_WORDPRESS_GRAPHQL_API;
 
 export default function TemplateRouter({ searchText, location }) {

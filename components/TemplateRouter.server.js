@@ -4,12 +4,13 @@ import Tag from "./Tag";
 import ClientPage from "./Page.client";
 import ClientPost from "./Post.client";
 import SearchField from "./SearchField.client";
+const wpEndpoint = process.env.NEXT_PUBLIC_WORDPRESS_GRAPHQL_API;
 
 export default function TemplateRouter({ searchText, location }) {
 
-    console.log( `http://wpgraphql.local/graphql?query=query SearchPosts($search:String){posts(where:{search:$search}){nodes{id,title}}}&variables={"search":"${searchText}"}` );
+    console.log( `${wpEndpoint}?query=query SearchPosts($search:String){posts(where:{search:$search}){nodes{id,title}}}&variables={"search":"${searchText}"}` );
 
-    const response = fetch(`http://wpgraphql.local/graphql?query=query SearchPosts($search:String){posts(where:{search:$search}){nodes{id,title}}}&variables={"search":"${searchText}"}`).json()
+    const response = fetch(`${wpEndpoint}?query=query SearchPosts($search:String){posts(where:{search:$search}){nodes{id,title}}}&variables={"search":"${searchText}"}`).json()
 
     switch (searchText) {
         case 'Page':

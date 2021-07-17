@@ -20,7 +20,7 @@ export default function TemplateRouter({ searchText, location }) {
             template =  <ClientPost />
             break;
         default:
-            response && response.data ? template = (
+            template = response && response.data ? (
                 <div>
                     <h3>Gaa!!!</h3>
                     <SearchField />
